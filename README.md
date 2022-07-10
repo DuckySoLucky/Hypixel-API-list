@@ -11,11 +11,11 @@ First you import API from folder where it's located.
 
 After that You can use every function in the file of API. In this case example I'm gonna use `getFetchur()`
 
-``
+```
 SkyHelperAPI.getFetchur().then(response => {
     console.log(`Fetchur Requests: ${response.data.text}`)
 })
-``
+```
 
 After running code, the response will be current fetchur item, at the time of making this the item was `1x Flint and Steel`
 
