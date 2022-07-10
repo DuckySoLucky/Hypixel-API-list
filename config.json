@@ -1,0 +1,14 @@
+{
+    "api": {
+        "hypixelAPI": "https://api.hypixel.net",
+        "hypixelAPIkey": "HYPIXEL_API",
+
+        "API below this is hosted by me": "Feel free to use it",
+        "skyHelperAPI": "http://176.31.203.28:1195/v1",
+        "skyHelperKey": "DuckySoLucky",
+
+        "skyShiiyuAPI": "https://sky.shiiyu.moe/api/v2",
+        
+        "playerDBAPI": "https://playerdb.co/api/player/minecraft"
+    }
+}
