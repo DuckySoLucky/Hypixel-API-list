@@ -11,11 +11,11 @@ First you import API from folder where it's located.
 
 After that You can use every function in the file of API. In this case example I'm gonna use `getFetchur()`
 
-`
+``
 SkyHelperAPI.getFetchur().then(response => {
     console.log(`Fetchur Requests: ${response.data.text}`)
 })
-`
+``
 
 After running code, the response will be current fetchur item, at the time of making this the item was `1x Flint and Steel`
 
@@ -28,6 +28,10 @@ SkyHelperAPI.getFetchur().then(response => {
 })`
 
 If u need more help or you have found bug, feel free to DM me on Discord, DuckySoLucky#5181.
+
+## Help
+
+If you are going through API like Hypixel you can get lost so I recommend you using websites like [JSON Path Finder](https://jsonpathfinder.com/), it shows you exact path and it can save a lot of time and suffer
 
 ### Powered By
 - [Hypixel Network API](http://api.hypixel.net/)
