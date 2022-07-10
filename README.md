@@ -33,7 +33,7 @@ If u need more help or you have found bug, feel free to DM me on Discord, DuckyS
 
 ## Help
 
-If you are going through API like Official Hypixel Network, You can get easily lost so I recommend you using websites like [JSON Path Finder](https://jsonpathfinder.com/), it shows you exact path and it can save a lot of time and suffer
+If you are going through API like Official Hypixel Network, You can get easily lost so I recommend you using websites like [JSON Path Finder](https://jsonpathfinder.com/), it shows you exact path and it can save a lot of time.
 
 ### Powered By
 - [Hypixel Network API](http://api.hypixel.net/)
