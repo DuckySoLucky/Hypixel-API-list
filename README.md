@@ -20,8 +20,7 @@ SkyHelperAPI.getFetchur().then(response => {
 After running code, the response will be current fetchur item, at the time of making this the item was `1x Flint and Steel`
 
 Full code
-``
-const SkyHelperAPI = require('./API/SkyHelperAPI')
+``const SkyHelperAPI = require('./API/SkyHelperAPI')
 
 SkyHelperAPI.getFetchur().then(response => {
     console.log(`Fetchur Requests: ${response.data.text}`)
