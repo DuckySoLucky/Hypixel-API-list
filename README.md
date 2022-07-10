@@ -4,6 +4,31 @@ List of the most useful APIs for Hypixel Network. Helpful for people who are mak
 
 <hr>
 
+## Usage
+
+First you import API from folder where it's located.
+`const SkyHelperAPI = require('./API/SkyHelperAPI')`
+
+After that You can use every function in the file of API. In this case example I'm gonna use `getFetchur()`
+
+`
+SkyHelperAPI.getFetchur().then(response => {
+    console.log(`Fetchur Requests: ${response.data.text}`)
+})
+`
+
+After running code, the response will be current fetchur item, at the time of making this the item was `1x Flint and Steel`
+
+Full code
+`
+const SkyHelperAPI = require('./API/SkyHelperAPI')
+
+SkyHelperAPI.getFetchur().then(response => {
+    console.log(`Fetchur Requests: ${response.data.text}`)
+})`
+
+If u need more help or you have found bug, feel free to DM me on Discord, DuckySoLucky#5181.
+
 ### Powered By
 - [Hypixel Network API](http://api.hypixel.net/)
 - [Hypixel API Reborn](https://hypixel.stavzdev.me/#/)
