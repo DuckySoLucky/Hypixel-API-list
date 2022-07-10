@@ -7,7 +7,7 @@ List of the most useful APIs for Hypixel Network. Helpful for people who are mak
 ## Usage
 
 First you import API from folder where it's located.
-`const SkyHelperAPI = require('./API/SkyHelperAPI')`
+```const SkyHelperAPI = require('./API/SkyHelperAPI')```
 
 After that You can use every function in the file of API. In this case example I'm gonna use `getFetchur()`
 
