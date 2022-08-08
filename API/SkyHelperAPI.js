@@ -30,4 +30,4 @@ async function getFetchur() {
     return response.data
 }
 
-module.exports = {getFetchur, getProfile};
+module.exports = { getFetchur, getProfile }
